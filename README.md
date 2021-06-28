@@ -13,5 +13,7 @@ Fuente del circuito: https://www.geekering.com/categories/embedded-sytems/esp826
 ## Uso
 Para usarlo crea una petición POST a la IP de la placa (se recomienda configurar IP estática desde el router) con los parámetros steps (pasos) y reverse (dirección) 0 ó 1.
 application/x-www-form-urlencoded
+\
+App de ejemplo para móviles: https://github.com/adri1336/locker2-app/
 
 ** MIT License **
