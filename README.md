@@ -10,4 +10,8 @@ Fuente del circuito: https://www.geekering.com/categories/embedded-sytems/esp826
 2. Crea el archivo WifiCredentials.ino como el ejemplo con las credenciales de tu Wifi
 3. Flashea a ESP8266 con Arduino IDE (https://www.arduino.cc/en/software)
 
+## Uso
+Para usarlo crea una petición POST a la IP de la placa (se recomienda configurar IP estática desde el router) con los parámetros steps (pasos) y reverse (dirección) 0 ó 1.
+application/x-www-form-urlencoded
+
 ** MIT License **
